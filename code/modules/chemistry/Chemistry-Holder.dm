@@ -83,7 +83,7 @@ proc/chem_helmet_check(mob/living/carbon/human/H, var/what_liquid="hot")
 		covered_cache_volume = total_volume
 
 	proc/play_mix_sound(var/mix_sound)
-		playsound(my_atom, mix_sound, 80, 1, 3)
+		playsound(my_atom, mix_sound, 80, TRUE, 3)
 
 	proc/copy_to(var/datum/reagents/target, var/multiplier = 1, var/do_not_react = 0, var/copy_temperature = 0)
 		if(!target || target == src) return
@@ -1206,6 +1206,9 @@ proc/chem_helmet_check(mob/living/carbon/human/H, var/what_liquid="hot")
 			classic_smoke_reaction(src, min(round(volume / 5), 4), location = my_atom ? get_turf(my_atom) : 0)
 		else
 			smoke_reaction(src, round(min(5, round(volume/10))), location = my_atom ? get_turf(my_atom) : 0)
+
+	proc/is_airborne()
+		return FALSE
 
 ///////////////////////////////////////////////////////////////////////////////////
 
