@@ -1,4 +1,19 @@
 
+(t)fri sep 20 24
+(u)444explorer
+(p)20753
+(e)🔄📦|C-Rework, A-Game-Objects
+(+)Renamed the "pickpocket grapple gun" to the "Super! Grapple Friend", uplink entry is unchanged.
+(t)thu sep 19 24
+(u)JORJ949
+(p)20656
+(e)🆕🤖|C-Feature, A-Silicons
+(+)Added two new "Experimental" law modules that may appear in a round.
+(t)wed sep 18 24
+(u)Jan.antilles
+(p)20742
+(e)🎨🎩|C-Sprites, A-Clothing
+(*)Four new sweaters have been added as knitting projects.
 (t)tue sep 17 24
 (u)aloe
 (+)You can once again suffer from multiple kinds of allergies. If you really want to. For whatever reason.
