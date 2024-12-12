@@ -389,4 +389,4 @@ var/datum/score_tracker/score_tracker
 /mob/proc/show_inspector_report()
 	if(!length(score_tracker.inspector_report)) return
 
-	src.Browse(score_tracker.inspector_report, "window=inspector;size=500x650")
+	tgui_message(src, score_tracker.inspector_report, "Inspector Report")
